@@ -12,7 +12,7 @@ apt install git nvidia-cuda-toolkit -y
 
 ```
 git clone https://github.com/ssalmug-corini/aleo_f2pool
-cd aleo_f2
+cd aleo_f2pool
 ```
 
 실행
@@ -24,6 +24,6 @@ chmod +x aleo-prover-cuda && chmod +x aleo.sh && ./aleo.sh
 
 로그확인
 ```
-cd ./aleo_f2 & cat prover.log
+cd ./aleo_f2pool & cat prover.log
 ```
 ------------------------------------------------------------------
